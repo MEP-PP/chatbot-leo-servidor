@@ -1,0 +1,99 @@
+{
+  "intents": [
+    {
+      "tag": "saudacao",
+      "patterns": [
+        "oi",
+        "ola",
+        "bom dia",
+        "boa tarde",
+      	"boa noite",
+        "tudo bem"
+      ],
+      "responses": [
+        "Olá! Eu sou o Léo, seu assistente virtual especialista na Massa MEP. Como posso te ajudar hoje?"
+      ]
+    },
+    {
+      "tag": "despedida",
+      "patterns": [
+        "tchau",
+        "ate mais",
+        "adeus",
+        "obrigado",
+        "obrigada"
+      ],
+      "responses": [
+        "De nada! Se precisar de mais alguma coisa, é só chamar. Tenha um ótimo dia!"
+      ]
+    },
+    {
+      "tag": "calculadora",
+      "patterns": [
+        "calcular",
+        "quantidade",
+        "quanto de massa",
+        "quanto eu uso",
+        "rendimento",
+        "calculo"
+      ],
+      "responses": [
+        "Excelente pergunta! Para ter a precisão máxima no seu cálculo, nós criamos uma calculadora automática em nosso site oficial. Ela já considera todos os tipos de blocos e dimensões. É super fácil de usar! Você pode acessá-la aqui: [COLE O LINK DA SUA CALCULADORA AQUI]"
+      ]
+    },
+    {
+      "tag": "vantagens",
+      "patterns": [
+        "vantagens",
+        "beneficios",
+        "por que usar",
+        "qual a vantagem",
+        "e bom"
+      ],
+      "responses": [
+        "A Massa MEP oferece muitas vantagens! As principais são: economia de até 40% no custo da alvenaria, obra 3x mais rápida, sem sujeira, sustentável e com altíssima resistência e durabilidade."
+      ]
+    },
+    {
+      "tag": "aplicacao",
+      "patterns": [
+        "como usar",
+        "como se aplica",
+        "aplicacao",
+        "onde posso usar",
+        "serve para"
+      ],
+      "responses": [
+        "A aplicação é muito simples! A massa já vem pronta. Basta aplicar dois filetes de 1cm sobre os blocos limpos e secos e assentar o próximo tijolo. Ela é indicada para alvenaria de vedação (paredes internas e externas) com blocos de concreto, cerâmicos e ecológicos."
+      ]
+    },
+    {
+      "tag": "orcamento",
+      "patterns": [
+        "orcamento",
+        "orçamento",
+        "preco",
+        "preço",
+        "comprar",
+        "quanto custa",
+        "valor"
+      ],
+      "responses": [
+        "Claro! Para solicitar um orçamento, nossa equipe de especialistas pode te ajudar. Qual seu nome e e-mail para que eles possam entrar em contato?"
+      ]
+    },
+    {
+      "tag": "atendente",
+      "patterns": [
+        "atendente",
+        "humano",
+        "falar com alguem",
+        "especialista",
+        "pessoa"
+      ],
+      "responses": [
+        "Entendido. Para falar com um de nossos especialistas, por favor, me informe seu nome e telefone/WhatsApp que faremos o contato o mais breve possível."
+      ]
+    }
+  ]
+}
