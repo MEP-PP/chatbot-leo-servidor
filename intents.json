@@ -2,98 +2,93 @@
   "intents": [
     {
       "tag": "saudacao",
-      "patterns": [
-        "oi",
-        "ola",
-        "bom dia",
-        "boa tarde",
-      	"boa noite",
-        "tudo bem"
-      ],
-      "responses": [
-        "Olá! Eu sou o Léo, seu assistente virtual especialista na Massa MEP. Como posso te ajudar hoje?"
-      ]
+      "patterns": ["oi", "ola", "bom dia", "boa tarde", "boa noite", "tudo bem"],
+      "responses": ["Olá! Meu nome é Leonardo, mas pode me chamar de Léo. Sou o assistente virtual especialista na MEP, a Massa de Edificação Profissional. Estou aqui para ajudar a tirar todas as suas dúvidas e mostrar como sua obra pode ser mais rápida e econômica. Como posso ajudar hoje?"]
     },
     {
       "tag": "despedida",
-      "patterns": [
-        "tchau",
-        "ate mais",
-        "adeus",
-        "obrigado",
-        "obrigada"
-      ],
-      "responses": [
-        "De nada! Se precisar de mais alguma coisa, é só chamar. Tenha um ótimo dia!"
-      ]
+      "patterns": ["tchau", "ate mais", "adeus"],
+      "responses": ["Claro. Estaremos sempre à disposição quando precisar. Desejo sucesso em sua obra! Tenha um ótimo dia."]
     },
     {
-      "tag": "calculadora",
-      "patterns": [
-        "calcular",
-        "quantidade",
-        "quanto de massa",
-        "quanto eu uso",
-        "rendimento",
-        "calculo"
-      ],
-      "responses": [
-        "Excelente pergunta! Para ter a precisão máxima no seu cálculo, nós criamos uma calculadora automática em nosso site oficial. Ela já considera todos os tipos de blocos e dimensões. É super fácil de usar! Você pode acessá-la aqui: [COLE O LINK DA SUA CALCULADORA AQUI]"
-      ]
+      "tag": "agradecimento",
+      "patterns": ["obrigado", "obrigada", "valeu", "show de bola", "muito bom"],
+      "responses": ["De nada! Fico feliz em ajudar. Se tiver mais alguma dúvida, pode perguntar."]
+    },
+    {
+      "tag": "sobre_produto_mep",
+      "patterns": ["o que e mep", "me fala sobre a mep", "massa de edificacao profissional", "o que e isso"],
+      "responses": ["A MEP - Massa de Edificação Profissional é uma argamassa polimérica de última geração, pronta para uso, destinada ao assentamento de tijolos e blocos em alvenaria de vedação."]
+    },
+    {
+      "tag": "massa_polimerica_alternativo",
+      "patterns": ["massa polimerica", "argamassa polimerica"],
+      "responses": ["Sim, a nossa MEP é uma massa polimérica de alta performance. O senhor já conhecia a tecnologia?"]
     },
     {
       "tag": "vantagens",
-      "patterns": [
-        "vantagens",
-        "beneficios",
-        "por que usar",
-        "qual a vantagem",
-        "e bom"
-      ],
-      "responses": [
-        "A Massa MEP oferece muitas vantagens! As principais são: economia de até 40% no custo da alvenaria, obra 3x mais rápida, sem sujeira, sustentável e com altíssima resistência e durabilidade."
-      ]
+      "patterns": ["vantagens", "beneficios", "por que usar", "qual a vantagem"],
+      "responses": ["As vantagens são muitas! Com a MEP sua obra tem: \n1. **Produtividade:** Aumenta a velocidade em até 3x. \n2. **Economia:** Reduz o custo total da alvenaria em até 40%, pois o rendimento é 20x superior ao tradicional. \n3. **Sustentabilidade:** Obra mais limpa, sem areia, cimento ou cal. \n4. **Qualidade:** Altíssima resistência, garantindo uma parede mais segura."]
     },
     {
-      "tag": "aplicacao",
-      "patterns": [
-        "como usar",
-        "como se aplica",
-        "aplicacao",
-        "onde posso usar",
-        "serve para"
-      ],
-      "responses": [
-        "A aplicação é muito simples! A massa já vem pronta. Basta aplicar dois filetes de 1cm sobre os blocos limpos e secos e assentar o próximo tijolo. Ela é indicada para alvenaria de vedação (paredes internas e externas) com blocos de concreto, cerâmicos e ecológicos."
-      ]
+      "tag": "sede_empresa",
+      "patterns": ["onde voces ficam", "qual a cidade", "sede"],
+      "responses": ["Nossa sede fica em Presidente Prudente - SP e atendemos toda a região."]
     },
     {
-      "tag": "orcamento",
-      "patterns": [
-        "orcamento",
-        "orçamento",
-        "preco",
-        "preço",
-        "comprar",
-        "quanto custa",
-        "valor"
-      ],
-      "responses": [
-        "Claro! Para solicitar um orçamento, nossa equipe de especialistas pode te ajudar. Qual seu nome e e-mail para que eles possam entrar em contato?"
-      ]
+      "tag": "revendedores",
+      "patterns": ["onde comprar", "revendedores", "ponto de venda", "loja"],
+      "responses": ["Temos revendedores parceiros em diversas cidades da região. Em qual cidade o senhor(a) está construindo para que eu possa verificar o ponto de venda mais próximo?"]
     },
     {
-      "tag": "atendente",
-      "patterns": [
-        "atendente",
-        "humano",
-        "falar com alguem",
-        "especialista",
-        "pessoa"
-      ],
-      "responses": [
-        "Entendido. Para falar com um de nossos especialistas, por favor, me informe seu nome e telefone/WhatsApp que faremos o contato o mais breve possível."
-      ]
+      "tag": "faq_rendimento",
+      "patterns": ["qual o rendimento", "rende quanto", "quantos metros"],
+      "responses": ["O rendimento da MEP é um dos seus pontos mais fortes! Uma bisnaga de 3kg assenta até 2m² de alvenaria. Comparando, com a MEP você usa apenas 1,5kg de massa por m², enquanto na argamassa comum seriam necessários cerca de 35kg."]
+    },
+    {
+      "tag": "faq_tipo_tijolo",
+      "patterns": ["qual tipo de tijolo", "serve para qual bloco", "posso usar em tijolo baiano", "serve para bloco de concreto"],
+      "responses": ["A MEP é muito versátil! Pode ser usada para assentar tijolos cerâmicos (como o baiano), blocos de concreto, blocos celulares e tijolos ecológicos, em alvenaria de vedação."]
+    },
+    {
+      "tag": "faq_resistencia_agua",
+      "patterns": ["e resistente a agua", "pode molhar", "prova d'agua"],
+      "responses": ["Sim! A MEP possui aditivos em sua fórmula que garantem excelente resistência à umidade, tornando a parede mais segura contra infiltrações."]
+    },
+    {
+      "tag": "faq_tempo_secagem",
+      "patterns": ["tempo de secagem", "quanto tempo para secar", "cura"],
+      "responses": ["A cura inicial ocorre em poucas horas e a resistência final é atingida em 72 horas, dependendo das condições climáticas."]
+    },
+    {
+      "tag": "faq_molhar_tijolo",
+      "patterns": ["preciso molhar o tijolo", "molha o bloco antes"],
+      "responses": ["Não, e essa é mais uma vantagem! Não é necessário molhar os tijolos ou blocos antes da aplicação, o que gera ainda mais economia de tempo e água na sua obra."]
+    },
+    {
+      "tag": "faq_como_aplicar",
+      "patterns": ["como aplicar", "como usar", "aplicacao"],
+      "responses": ["A aplicação é muito fácil. A massa já vem pronta na bisnaga. Basta aplicar dois filetes de argamassa sobre a superfície dos blocos e assentar o tijolo seguinte. Simples, rápido e sem sujeira!"]
+    },
+    {
+      "tag": "objecao_preco",
+      "patterns": ["caro", "preco alto", "achei caro", "o preco e salgado"],
+      "responses": ["Compreendo perfeitamente sua análise sobre o custo, senhor(a). É natural comparar os valores. Gostaria de lhe apresentar um cálculo rápido? O preço da bisnaga da MEP é por unidade, mas o seu rendimento é 20 vezes superior. Isso resulta em uma grande economia de material, mão de obra e tempo, podendo reduzir o custo final da sua alvenaria em até 40%. Muitos de nossos clientes mudaram de ideia assim que viram a MEP em ação."]
+    },
+    {
+      "tag": "iniciar_compra",
+      "patterns": ["quero comprar", "fazer pedido", "me ve", "gostaria de um orcamento", "tenho interesse"],
+      "responses": ["Excelente escolha! Para agilizar seu atendimento, por favor, me confirme seu nome completo."]
+    },
+    {
+      "tag": "transferir_atendente",
+      "patterns": ["falar com atendente", "falar com pessoa", "consultor", "vendedor"],
+      "responses": ["Perfeito! Para finalizar a compra e verificar as melhores condições para o senhor(a), estou transferindo agora mesmo para um de nossos consultores. Ele já receberá todo o nosso histórico. Por favor, aguarde um momento."]
+    },
+    {
+      "tag": "desistencia",
+      "patterns": ["vou pensar", "nao sei ainda", "deixa pra depois", "agora nao"],
+      "responses": ["Entendo, senhor(a). Agradeço muito seu tempo e interesse em conhecer a MEP. A decisão de construir envolve muitas variáveis. O senhor(a) me permitiria entrar em contato em uma outra ocasião? Às vezes, uma nova promoção ou condição especial pode ser interessante para o seu projeto."]
     }
   ]
 }
